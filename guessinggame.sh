@@ -1,0 +1,21 @@
+echo "How many files are in the current directory?"
+while [[ 1 -gt 0 ]]
+do
+	read -p 'Guess: ' response
+	if [[ $response -gt 3 ]]
+	then
+		echo "Fewer!"
+	elif [[ $response -lt 3 ]]
+	then
+		echo "Greater!"
+	else
+		echo "Correct!"
+		break
+	fi
+done
+
+
+
+
+
+#comment to make the line quota
