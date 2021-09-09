@@ -1,5 +1,5 @@
 echo "How many files are in the current directory?"
-while [[ 1 -gt 0 ]]
+while :
 do
 	read -p 'Guess: ' response
 	if [[ $response -gt 3 ]]
